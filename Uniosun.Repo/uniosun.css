@@ -1,0 +1,53 @@
+body{
+background-image: url("whitengreen.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#newform{
+text-align: center;
+}
+
+form{
+background-color: rgba(35, 29, 32, 0.5);
+margin: 200px;
+padding: 50px;
+}
+
+h2{
+color: yellow;
+font-size: 30px;
+}
+
+input{
+background-color: #707070;
+border: none;
+border-bottom: 2px solid white;
+width: 250px;
+height: 30px;
+}
+
+input[type=checkbox]{
+width: 25px;
+height: 20px;
+}
+
+label{
+color: yellow;
+font-size: 20px;
+}
+
+button{
+background-color: #5D954F;
+color: white;
+width: 90px;
+height: 40px;
+padding-right: 15px;
+font-size: 20px;
+border-radius: 20px;
+}
+
+::placeholder{
+color: white;
+font-size: 20px;
+}
